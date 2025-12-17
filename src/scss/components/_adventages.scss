@@ -1,0 +1,53 @@
+.adventages {
+  padding-top: 95px;
+  padding-bottom: 95px;
+  line-height: 171%;
+  letter-spacing: 0.03em;
+}
+.adventages__title {
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  color: var(--ColorTextBlack);
+}
+.adventages__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+.adventages__item {
+  max-width: 270px;
+}
+.adventages__item::before {
+  content: "";
+  display: block;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #f5f4fa;
+  height: 120px;
+  border-radius: 4px;
+  margin-bottom: 30px;
+  width: 100%;
+}
+.adventages__item:nth-child(1)::before {
+  background-image: url(../img/decorations/ws-antena-opt-im.svg);
+}
+.adventages__item:nth-child(2)::before {
+  background-image: url(../img/decorations/ws-time-opt.svg);
+}
+.adventages__item:nth-child(3)::before {
+  background-image: url(../img/decorations/ws-diagrama-opt-im.svg);
+}
+.adventages__item:nth-child(4)::before {
+  background-image: url(../img/decorations/ws-astronaft-opt-im.svg);
+}
+.adventages__text {
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--ColorText);
+}
+.adventage .container__work {
+  display: flex;
+  align-items: center;
+}

@@ -1,0 +1,52 @@
+.subscribe__form {
+  padding-left: 94px;
+}
+.subscribe__titel {
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #fff;
+}
+.email__holder {
+  display: flex;
+  gap: 12px;
+  margin-top: 20px;
+}
+.subscribe__input {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  padding: 16px 15px;
+  width: 358px;
+  color: rgba(255, 255, 255, 0.6);
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background: rgba(33, 150, 243, 0);
+}
+.subscribe__button {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color: #fff;
+  background-color: #2196f3;
+  padding: 10px 28px;
+  gap: 10px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 187%;
+  letter-spacing: 0.06em;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.subscribe__button::after {
+  content: "";
+  background-image: url(../img/decorations/telegramicon.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  width: 24px;
+  height: 24px;
+}
+.subscribe__button:hover {
+  background-color: #0167bb;
+  transition-duration: 250ms;
+}

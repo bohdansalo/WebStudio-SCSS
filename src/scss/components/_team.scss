@@ -1,0 +1,38 @@
+.team {
+  @extend %section-padding;
+  background-color: #f5f4fa;
+}
+.teammate {
+  background-color: #fff;
+  text-align: center;
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.4), 0 1px 1px 0 rgba(0, 0, 0, 0.1),
+    0 1px 3px 0 rgba(0, 0, 0, 0.1);
+}
+.team__title {
+  font-weight: 700;
+  font-size: 36px;
+  color: var(--ColorTextBlack);
+  margin-bottom: 50px;
+  text-align: center;
+}
+.team__list {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.team__photo {
+  max-width: 270px;
+}
+.team__name {
+  font-weight: 500;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: var(--ColorTextBlack);
+}
+.team__text {
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--ColorText);
+}
